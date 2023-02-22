@@ -1,5 +1,5 @@
 {
-	"name": "@richardev/vue3-boilerplate",
+	"name": "@richardev/vue3-notepad",
 	"description": "Quick boilerplate for your next project, containing - Vite, Vuex, Vue Router & Tailwind CSS. This was created as part of my tutorial series.",
 	"version": "1.0.8",
 	"repository": {
@@ -13,6 +13,16 @@
 		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
 	},
 	"dependencies": {
+		"@aws-sdk/client-s3": "^3.272.0",
+		"@fortawesome/fontawesome-free": "^6.3.0",
+		"@fortawesome/fontawesome-svg-core": "^6.3.0",
+		"@fortawesome/free-solid-svg-icons": "^6.3.0",
+		"@fortawesome/vue-fontawesome": "^3.0.3",
+		"aws-sdk": "^2.1320.0",
+		"axios": "^1.3.3",
+		"dotenv": "^16.0.3",
+		"highlight.js": "^11.7.0",
+		"marked": "^4.2.12",
 		"pinia": "^2.0.22",
 		"vue": "^3.2.39",
 		"vue-router": "^4.1.5"
